@@ -9,16 +9,21 @@ body {
 }
 
 h1, h2 {
-    color: rgb(152, 114, 132);
+    color: rgb(118, 86, 101);
 }
 
 h1 {
     font-family: 'Lobster', cursive;
     text-align: center;
+    font-size: 50px;
 }
 
 p, li {
     font-size: 16px;
+}
+
+footer {
+    text-align: center;
 }
 
 .razdelek {
@@ -29,4 +34,16 @@ p, li {
     padding-right: 20px;
     border-radius: 25px;
     margin: 20px;
+}
+
+button {
+  background-color: rgb(118, 86, 101);
+  margin: 5px;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
